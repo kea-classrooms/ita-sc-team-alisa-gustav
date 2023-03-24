@@ -2,6 +2,7 @@
    co = checkout
    root = rev-parse --show-toplevel 
    st = status
+   tree = log --oneline --all --graph
 
 [push]
    default = current   
