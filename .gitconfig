@@ -1,4 +1,7 @@
- [alias]
+[alias]
    co = checkout
    root = rev-parse --show-toplevel 
    st = status
+
+[push]
+   default = current   
